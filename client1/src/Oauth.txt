@@ -1,0 +1,4 @@
+OAuth client ID:
+113713252572-di6n1i8g3stgpl145tq1ujluka5j4fin.apps.googleusercontent.com
+your client secret:
+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

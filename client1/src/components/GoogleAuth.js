@@ -69,3 +69,5 @@ export default connect(mapStateToProps,
         signIn : signIn,
         signOut : signOut
     })(GoogleAuth);
+
+

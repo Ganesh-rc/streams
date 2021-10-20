@@ -65,3 +65,5 @@ const formWrapped = reduxForm({
 export default connect(null, {
     createStream: createStream
 })(formWrapped);
+
+

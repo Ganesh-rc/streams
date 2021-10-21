@@ -27,12 +27,10 @@ class StreamEdit extends React.Component {
             </div>
         );
     }
-    // console.log(props);
     
 };
 
 const mapStateToProps = ( state, ownProps ) => {
-    // console.log(ownProps)
     return { stream: state.streams[ownProps.match.params.id]  }
 };
 

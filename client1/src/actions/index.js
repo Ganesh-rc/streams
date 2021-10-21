@@ -17,7 +17,6 @@ export const signOut = () => {
     };
 };
 
-// createstream actioncreator -> creates a post request for 
 export const createStream = ( formValues ) => async (dispatch, getState)=>{
     const { userId } = getState().auth;
     const response = await streams.post('/streams', {...formValues, userId  });
@@ -26,14 +25,12 @@ export const createStream = ( formValues ) => async (dispatch, getState)=>{
     history.push('/');
 };
 
-// fetchStream actioncreator
 export const fetchStreams = () => async (dispatch) => {
     const response = await streams.get('/streams');
 
     dispatch({type : FETCH_STREAMS, payload: response.data});
 };
 
-// fetching single stream
 export const fetchStream = ( id ) => async (dispatch) => {
     const response = await streams.get(`/streams/${id}`);
 

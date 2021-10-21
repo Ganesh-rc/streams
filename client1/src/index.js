@@ -10,7 +10,7 @@ import reducers from './reducers';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-console.log("hello");
+// console.log("hello");
 
 const store = createStore(
     reducers,

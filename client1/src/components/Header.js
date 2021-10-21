@@ -10,8 +10,7 @@ const Header = () => {
                 <Link to='/' className='item'> All streams</Link>
                 <Link to='/streams/new' className='item'> create stream</Link>
                 <Link to='/streams/show' className='item'>show stream </Link>
-                <Link to='/streams/edit' className='item'> edit streams</Link>
-                <Link to='/streams/delete' className='item'> delete streams</Link>
+
                 <GoogleAuth />
             </div>
         </div>
